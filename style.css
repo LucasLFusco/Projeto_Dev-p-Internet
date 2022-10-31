@@ -66,15 +66,19 @@ header #social{
     float: right;
     width: 218px;
     justify-content: space-between;
-    margin: -3px 50px 0px 0px;
+    margin: -4px 50px 0px 0px;
 }
 #social a{
     color: black;   
     margin: 0px 22px 0px 20px; 
 }
 
+#social ion-icon{
+    margin: 0px 0px -3px;
+}
+
 #social .icon-instagram:hover{
-    background-image: linear-gradient(to left,#FFC503, #F9CB00 ,#FE6A00,#FA3D37,#FF2A77,#FB1DB2,#C11DFA,#881EF4);
+    background-image: linear-gradient(to left,#FFC503, #F9CB00 ,#FE6A00,#FA3D37,#FF2A77,#FB1DB2,#C11DFA,#881EF4); 
     border: 3px solid transparent;
     border-radius: 100px;
     transition: 500ms;
@@ -105,7 +109,7 @@ main{
     margin: 200px auto;
     text-align: center;
     align-items: center;
-    /* height: 362rem; */
+    height: 362rem; 
 }
 main #home{
     margin: 253px 1px 16rem 45px;
