@@ -32,7 +32,7 @@ body{
 
 /* header */
 header{
-    background-color: hsla(226, 28%, 59%, 0.4);
+    background-color: hsla(226, 28%, 59%, 0.877);
     position: fixed;
     z-index: 10;
     height: 40px;
@@ -55,9 +55,10 @@ nav a{
     margin-left: 20px;
 }
 nav a:hover{
-    background-color: hsl(228, 100%, 83%);
+    background-color: hsl(228, 70%, 45%);
     transition: 1s;
     border-radius: 9px ;
+    color: white;
 }
 /* Social */
 header #social{
@@ -73,7 +74,7 @@ header #social{
 }
 
 #social .icon-instagram:hover{
-    background-image: linear-gradient(to right,#FFC503 10%, #F9CB00 ,#FE6A00,#FA3D37,#FF2A77,#FB1DB2,#C11DFA,#881EF4,#8019FF);
+    background-image: linear-gradient(to left,#FFC503, #F9CB00 ,#FE6A00,#FA3D37,#FF2A77,#FB1DB2,#C11DFA,#881EF4);
     border: 3px solid transparent;
     border-radius: 100px;
     transition: 500ms;
@@ -104,7 +105,7 @@ main{
     margin: 200px auto;
     text-align: center;
     align-items: center;
-    height: 362rem;
+    /* height: 362rem; */
 }
 main #home{
     margin: 253px 1px 16rem 45px;
