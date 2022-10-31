@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2? family= Montserrat:wght@400;600 & display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 
+#7886B3, 
+#5265A2,
+#4E5F95,
+#354A8D, 
+#1D2E66,
+#102361, 
+#061445,
+
+
+*/
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+main{
+    margin: auto;
+    background-color: #e5e2e2; 
+    width: 640px; 
+    text-align: justify;
+}
+article{
+    height: 600px;
+    position: relative;
+}
+h1{
+    background-image: linear-gradient(to right,#7886B3,transparent);
+    text-indent: 5px;
+}
+h2{
+    font-size: 1.2em;
+    margin:10px 5px;
+}
+p{
+    margin: 10px 8px;
+}
+img{
+    margin-left: 3px;
+}
+/* TOPO */
+#topo{
+    padding: 25px 45px;
+    height: 600px;
+}
+#top{
+    background-image: none;
+    margin: auto 75px;
+}
+#topo img {
+    margin: 20px 100px;
+}
+
+/* Videos */
+main iframe{
+    position: absolute;
+    margin: 0px 3px;
+}
+
+/* legenda logo */
+figcaption{
+    text-align: center;
+}
+#logo img{
+    margin-left: 10px;
+}
+
+
+
+
+#logo ul{
+    list-style-position: inside;
+    columns: 3;
+    text-decoration: none;
+}

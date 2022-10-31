@@ -1,0 +1,515 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+/* video em background */
+#videoBG{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -1;
+    object-fit: cover;
+    
+}
+@media (min-aspect-ratio: 16/9){
+    #videoBG{
+        width: 100%;
+        height: 100%;
+    }
+}
+@media (max-aspect-ratio: 16/9){
+    #videoBG{
+        width: auto;
+        height: 100%;
+    }
+}
+
+
+/* header */
+header{
+    background-color: hsla(226, 28%, 59%, 0.4);
+    position: fixed;
+    z-index: 10;
+    height: 40px;
+}
+img#lgboeing {
+    margin: -11px 0px 0px 74px;
+}
+
+nav {
+    text-align: center;
+    margin-top: -40px;
+    width: 100vw;
+    height: 1vh;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.2em;
+    margin-left: 20px;
+}
+nav a:hover{
+    background-color: hsl(228, 100%, 83%);
+    transition: 1s;
+    border-radius: 9px ;
+}
+/* Social */
+header #social{
+    display:flex;
+    float: right;
+    width: 218px;
+    justify-content: space-between;
+    margin: -3px 50px 0px 0px;
+}
+#social a{
+    color: black;   
+    margin: 0px 22px 0px 20px; 
+}
+
+#social .icon-instagram:hover{
+    background-image: linear-gradient(to right,#FFC503 10%, #F9CB00 ,#FE6A00,#FA3D37,#FF2A77,#FB1DB2,#C11DFA,#881EF4,#8019FF);
+    border: 3px solid transparent;
+    border-radius: 100px;
+    transition: 500ms;
+}
+#social .icon-facebook:hover{
+    background-color: hsl(216, 86%, 61%);
+    border: 3px solid transparent;
+    border-radius: 100px;
+    transition: 500ms;
+}
+#social .icon-twitter:hover{
+    background-color: #4F9DEB;
+    border: 3px solid transparent;
+    border-radius: 100px;
+    transition: 500ms;
+}
+#social .icon-youtube:hover{
+    background-color: hsl(0, 100%, 50%);
+    border: 3px solid transparent;
+    border-radius: 100px;
+    transition: 500ms;
+}
+
+
+/* Main e H1 SOZINHO */
+main{
+    position: absolute;
+    margin: 200px auto;
+    text-align: center;
+    align-items: center;
+    height: 362rem;
+}
+main #home{
+    margin: 253px 1px 16rem 45px;
+    background-image: linear-gradient(to right, hsl(208, 54%, 53%) ,transparent,transparent,transparent); 
+    text-align: left;
+    color: black;   
+}
+main h1,h2{
+    color: rgb(0, 0, 83);
+}
+main p{
+    font-size: 1.2em;
+}
+
+
+
+/* SOBRE */
+main #sobre{
+    width: 70vw;
+    background-color: #fffbfbc5;
+    margin: auto;
+    box-shadow: 1px 2px 20px black;
+    height: 67vh;
+    margin-bottom: 150px;
+    padding: 15px;
+}
+main #sobre h1{
+    margin: 10px auto 20px;
+    text-align: center;
+    font-size: 2em;
+}
+main #sobre h2{
+    text-align: center;
+    font-size: 1.4em;
+    margin: 5px auto;
+}
+main #sobre p{
+    text-align: justify;
+    text-indent: 40px;
+    margin: 15px auto;
+}
+
+
+/* Especificações */
+main #especificacao{
+    width: 90%;
+    background-color: #fffbfbc5;
+    margin: 230px auto; 
+    box-shadow: 1px 2px 20px black;
+    height: 290vh;
+    padding: 20px;
+}
+main h1{
+    text-align: center;
+    font-size: 2em;
+    margin: 40px auto;
+}
+/* TABELA */
+.tabela{
+    width: 80%;
+    height: 50vh;
+    margin: 50px auto;
+    color: white;
+}
+.tabela .cab{
+    background-color: hsl(210, 21%, 23%);
+    font-size: 20px;
+    height: 50px;
+    
+}
+
+.tabela .linha1{
+    background-color: hsl(180, 2%, 17%);
+    text-align: center;
+    justify-content: space-between;
+    letter-spacing: 1px;
+    font-size: 17px;
+    height: 40px;
+}
+
+.tabela .linha2{
+    background-color: hsl(0, 0%, 0%);
+    text-align: center;
+    justify-content: space-between;
+    letter-spacing: 1px;
+    font-size: 17px;
+    height: 40px;
+}
+
+/* Imagem comparação */
+#especificacao .comparacao{
+    text-align: center;
+}
+#especificacao figcaption{
+    text-align: center;
+}
+
+/* familia 777 */
+#especificacao .familia{
+    margin: 120px auto;
+}
+#especificacao .familia p{
+    text-indent: 40px;
+    text-align: justify;
+    line-height: 1.2em;
+    margin: 15px auto;
+}
+
+#especificacao #conteudo img{
+    /* margin: 1px -31px 1px -31px; */
+    position: relative;
+    margin: -30px 675px 1px -43px;
+}
+
+
+/* Especificações MAPA */
+iframe#spec{
+    width: 49%;
+    height: 380px;
+    border: none;
+    text-align: right;
+    margin: -88px 0px 0px -3px;
+    position: absolute;
+    left: 47%;
+    top: 169rem;
+}
+
+/* GALERIA */
+
+main #fotos{
+    width: 90vw;
+    background-color: #fffbfbc5;
+    margin: 260px auto;
+    box-shadow: 1px 2px 20px rgb(0, 0, 0);
+    height: 176vh;
+    padding: 20px;
+}
+
+main #fotos h2,p{
+    text-align: center;
+    margin: 20px auto;
+} 
+
+/* FOTOS GALERIA */
+ul.galeria{
+    width: 932px;
+    height: 800px;
+    margin: 0 auto;
+    overflow: hidden;
+    list-style: none;
+    columns: 3;
+}
+ul.galeria li{
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 50px 10px 0px 50px;
+    border: 5px solid rgba(173, 171, 171, 0.63);
+    background-color: rgba(255, 255, 255, 0.986);
+    box-shadow: 1px 1px 4px rgba(0,0,0,.4);
+    transition: all .4s ease-in;
+}
+ul.galeria li:hover{
+    transform: scale(1.5);
+}
+
+
+ul.galeria li span{
+    opacity: 0;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    background-color: rgba(31, 15, 255, 0.3);
+    font-size: 10pt;
+    line-height: 352px;
+    padding: 5px;
+}
+ul.galeria li:hover span{
+    opacity: 1;
+}
+
+
+ul.galeria li#foto01{
+    background: url(imagens/Galeria/777-hangar.png);
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white;
+}
+ul.galeria li#foto01:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+
+ul.galeria li#foto02{
+    background: url(imagens/Galeria/777x-por_do_sol.jpg);
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white;
+}
+ul.galeria li#foto02:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+
+ul.galeria li#foto03{
+    background: url(imagens/Galeria/737-ge90.jpg);
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white;
+}
+ul.galeria li#foto03:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+
+ul.galeria li#foto04{
+    background: url(imagens/Galeria/b777.jpg);
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white;
+}
+ul.galeria li#foto04:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+
+ul.galeria li#foto05{
+    background: url(imagens/Galeria/cabine-pessoas.jpg);
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white;
+}
+ul.galeria li#foto05:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+
+ul.galeria li#foto06{
+    background: url(imagens/Galeria/motor.jpg);
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white;
+}
+ul.galeria li#foto06:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+ul.galeria li#foto07{
+    background: url(imagens/Galeria/btaxi.jpg);
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white;
+}
+ul.galeria li#foto07:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+ul.galeria li#foto08{
+    background: url(imagens/Galeria/cabine.jpg);
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white;
+}
+ul.galeria li#foto08:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+ul.galeria li#foto09{
+    background: url(imagens/Galeria/motor-detalhe.jpg);
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white;
+}
+ul.galeria li#foto09:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+/* familia */
+.familia a{
+    text-decoration: none;
+    color: blue;
+}
+.familia a::after{
+    content: '\1F517';
+}
+.familia a:hover{
+    color: black;
+    text-decoration: underline;
+    border: 3px solid transparent;
+    background-color: #4f9deb73;
+    border-radius: 30px;
+    transition: 331ms;
+}
+
+
+
+
+
+
+
+/* ID VIDEO */
+
+main #video{
+    width: 90vw;
+    background-color: #fffbfbc5;
+    margin: 260px auto;
+    box-shadow: 1px 2px 20px rgb(0, 0, 0);
+    height: 170vh;
+    padding: 20px;
+}
+
+main #video h1,p{
+    text-align: center;
+    margin: 50px auto;
+    
+} 
+
+/* CLASS VIDEOS */
+.videos{
+    height: 520px;
+    margin: 0 auto;
+    overflow: hidden;
+    list-style: none;
+    columns: 3;
+}
+.videos li{
+    float: left;
+    width: 360px;
+    height: 210px;
+    margin-top: 20px;
+    border: 5px solid rgba(173, 171, 171, 0.63);
+    background-color: rgba(255, 255, 255, 0.986);
+    box-shadow: 1px 1px 4px rgba(0,0,0,.4);
+}
+.videos #vid1{
+    height: 200px;
+    width: 350px;
+}
+
+#video h2{
+    border: 4px solid transparent;
+    border-radius: 30px;
+    background-color: #061445;
+    color: white;
+    height: 40px;
+    width: 345px;
+    text-align: center;
+    margin: auto;
+}
+
+#video .sbmais{
+    columns: 4;
+    list-style: none;
+    margin: 20px 0px 0px 20px;
+}
+#video .sbmais li{
+    float: left;
+    width: 260px;
+    height: 210px;
+    margin-top: 20px;
+    border: 5px solid rgb(173, 171, 171);
+    background-image: linear-gradient(to right,hsl(208, 54%, 53%) ,transparent);
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.459);
+}
+#video .sbmais figcaption{
+    margin-top: 10px;
+    
+    width: auto;
+    height: auto;
+}
+
+
+/* RODAPÉ */
+footer{
+    position: absolute;
+    top: 942%;
+    width: 100%;
+    margin: 10px auto;
+    background-color: hsla(226, 28%, 59%, 0.685);
+}
+footer p{
+    margin: 20px auto;
+}
+footer a{
+    text-decoration: none;
+    color: black;
+}
+footer a:hover{
+    text-decoration: underline;
+}
+
+/* 
+#7886B3, 
+#5265A2,
+#4E5F95,
+#354A8D, 
+#1D2E66,
+#102361, 
+#061445,
+*/
