@@ -78,7 +78,7 @@ header #social{
 }
 
 #social .icon-instagram:hover{
-    background-image: linear-gradient(to left,#FFC503, #F9CB00 ,#FE6A00,#FA3D37,#FF2A77,#FB1DB2,#C11DFA,#881EF4); 
+    background-image: linear-gradient(to right,#FFC503, #F9CB00 ,#FE6A00,#FA3D37,#FF2A77,#FB1DB2,#C11DFA,#881EF4); 
     border: 3px solid transparent;
     border-radius: 100px;
     transition: 500ms;
@@ -109,7 +109,7 @@ main{
     margin: 200px auto;
     text-align: center;
     align-items: center;
-    height: 362rem; 
+    height: 100%; 
 }
 main #home{
     margin: 253px 1px 16rem 45px;
@@ -283,7 +283,7 @@ ul.galeria li span{
     text-shadow: 1px 1px 1px black;
     background-color: rgba(31, 15, 255, 0.3);
     font-size: 10pt;
-    line-height: 352px;
+    line-height: 27px;
     padding: 5px;
 }
 ul.galeria li:hover span{
