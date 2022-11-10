@@ -7,28 +7,6 @@
 body{
     font-family: 'Roboto', sans-serif;
 }
-/* video em background */
-#videoBG{
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    z-index: -1;
-    object-fit: cover;
-    
-}
-@media (min-aspect-ratio: 16/9){
-    #videoBG{
-        width: 100%;
-        height: 100%;
-    }
-}
-@media (max-aspect-ratio: 16/9){
-    #videoBG{
-        width: auto;
-        height: 100%;
-    }
-}
-
 
 /* header */
 header{
@@ -125,7 +103,6 @@ main p{
 }
 
 
-
 /* SOBRE */
 main #sobre{
     width: 70vw;
@@ -180,7 +157,6 @@ main h1{
     height: 50px;
     
 }
-
 .tabela .linha1{
     background-color: hsl(180, 2%, 17%);
     text-align: center;
@@ -189,7 +165,6 @@ main h1{
     font-size: 17px;
     height: 40px;
 }
-
 .tabela .linha2{
     background-color: hsl(0, 0%, 0%);
     text-align: center;
@@ -199,11 +174,9 @@ main h1{
     height: 40px;
 }
 
+
 /* Imagem comparação */
 #especificacao .comparacao{
-    text-align: center;
-}
-#especificacao figcaption{
     text-align: center;
 }
 
@@ -219,7 +192,6 @@ main h1{
 }
 
 #especificacao #conteudo img{
-    /* margin: 1px -31px 1px -31px; */
     position: relative;
     margin: -30px 675px 1px -43px;
 }
@@ -237,8 +209,8 @@ iframe#spec{
     top: 169rem;
 }
 
-/* GALERIA */
 
+/* GALERIA */
 main #fotos{
     width: 90vw;
     background-color: #fffbfbc5;
@@ -413,11 +385,6 @@ ul.galeria li#foto09:hover{
 }
 
 
-
-
-
-
-
 /* ID VIDEO */
 
 main #video{
@@ -495,23 +462,47 @@ footer{
     position: absolute;
     top: 942%;
     width: 100%;
-    margin: 10px auto; 
+    margin: 20px auto; 
     background-color: hsla(226, 28%, 59%, 0.685);
 }
-footer #by{
-    /* margin: 20px 170px;  */
-    margin-right: 70px;
-    margin-top: 15px;
-}
 footer p{
-    margin: 10px auto;
+    margin: 7px auto;
 } 
+footer #nome{
+    margin-right: 71px;
+}
+footer #copy{
+    margin-right: 50px;
+}
 footer a{
     text-decoration: none;
     color: black;
 }
 footer a:hover{
     text-decoration: underline;
+}
+
+
+/* video em background */
+#videoBG{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -1;
+    object-fit: cover;
+    
+}
+@media (min-aspect-ratio: 16/9){
+    #videoBG{
+        width: 100%;
+        height: 100%;
+    }
+}
+@media (max-aspect-ratio: 16/9){
+    #videoBG{
+        width: auto;
+        height: 100%;
+    }
 }
 
 /* 
